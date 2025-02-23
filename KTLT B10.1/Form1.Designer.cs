@@ -50,77 +50,72 @@
             // label1
             // 
             this.label1.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(27, 7);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Location = new System.Drawing.Point(36, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(75, 19);
+            this.label1.Size = new System.Drawing.Size(100, 23);
             this.label1.TabIndex = 0;
             this.label1.Text = "Nhap";
             // 
             // label2
             // 
             this.label2.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(27, 50);
-            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label2.Location = new System.Drawing.Point(36, 62);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(75, 19);
+            this.label2.Size = new System.Drawing.Size(100, 23);
             this.label2.TabIndex = 1;
             this.label2.Text = "A";
             // 
             // label3
             // 
             this.label3.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(27, 72);
-            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label3.Location = new System.Drawing.Point(36, 89);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(75, 19);
+            this.label3.Size = new System.Drawing.Size(100, 23);
             this.label3.TabIndex = 2;
             this.label3.Text = "B";
             // 
             // label4
             // 
             this.label4.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(376, 21);
-            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label4.Location = new System.Drawing.Point(501, 26);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(96, 19);
+            this.label4.Size = new System.Drawing.Size(128, 23);
             this.label4.TabIndex = 3;
             this.label4.Text = "Chon tim";
             // 
             // label5
             // 
             this.label5.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(27, 136);
-            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label5.Location = new System.Drawing.Point(36, 167);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(75, 19);
+            this.label5.Size = new System.Drawing.Size(100, 23);
             this.label5.TabIndex = 4;
             this.label5.Text = "Ket qua";
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(82, 50);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox1.Location = new System.Drawing.Point(109, 62);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(260, 20);
+            this.textBox1.Size = new System.Drawing.Size(345, 22);
             this.textBox1.TabIndex = 5;
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(82, 73);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox2.Location = new System.Drawing.Point(109, 90);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(260, 20);
+            this.textBox2.Size = new System.Drawing.Size(345, 22);
             this.textBox2.TabIndex = 6;
             // 
             // rButtonUC
             // 
             this.rButtonUC.AutoSize = true;
-            this.rButtonUC.Location = new System.Drawing.Point(380, 50);
-            this.rButtonUC.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.rButtonUC.Location = new System.Drawing.Point(507, 62);
+            this.rButtonUC.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.rButtonUC.Name = "rButtonUC";
-            this.rButtonUC.Size = new System.Drawing.Size(54, 17);
+            this.rButtonUC.Size = new System.Drawing.Size(64, 20);
             this.rButtonUC.TabIndex = 7;
             this.rButtonUC.TabStop = true;
             this.rButtonUC.Text = "UCLN";
@@ -129,10 +124,10 @@
             // rButtonBC
             // 
             this.rButtonBC.AutoSize = true;
-            this.rButtonBC.Location = new System.Drawing.Point(380, 72);
-            this.rButtonBC.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.rButtonBC.Location = new System.Drawing.Point(507, 89);
+            this.rButtonBC.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.rButtonBC.Name = "rButtonBC";
-            this.rButtonBC.Size = new System.Drawing.Size(55, 17);
+            this.rButtonBC.Size = new System.Drawing.Size(66, 20);
             this.rButtonBC.TabIndex = 8;
             this.rButtonBC.TabStop = true;
             this.rButtonBC.Text = "BCNN";
@@ -141,10 +136,10 @@
             // buttonExit
             // 
             this.buttonExit.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonExit.Location = new System.Drawing.Point(414, 177);
-            this.buttonExit.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonExit.Location = new System.Drawing.Point(506, 256);
+            this.buttonExit.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.buttonExit.Name = "buttonExit";
-            this.buttonExit.Size = new System.Drawing.Size(101, 40);
+            this.buttonExit.Size = new System.Drawing.Size(135, 49);
             this.buttonExit.TabIndex = 10;
             this.buttonExit.Text = "Thoat";
             this.buttonExit.UseVisualStyleBackColor = true;
@@ -153,10 +148,10 @@
             // buttonKQ
             // 
             this.buttonKQ.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonKQ.Location = new System.Drawing.Point(31, 208);
-            this.buttonKQ.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonKQ.Location = new System.Drawing.Point(41, 256);
+            this.buttonKQ.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.buttonKQ.Name = "buttonKQ";
-            this.buttonKQ.Size = new System.Drawing.Size(101, 40);
+            this.buttonKQ.Size = new System.Drawing.Size(135, 49);
             this.buttonKQ.TabIndex = 11;
             this.buttonKQ.Text = "Tim";
             this.buttonKQ.UseVisualStyleBackColor = true;
@@ -165,10 +160,10 @@
             // buttonSkip
             // 
             this.buttonSkip.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonSkip.Location = new System.Drawing.Point(194, 208);
-            this.buttonSkip.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonSkip.Location = new System.Drawing.Point(259, 256);
+            this.buttonSkip.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.buttonSkip.Name = "buttonSkip";
-            this.buttonSkip.Size = new System.Drawing.Size(101, 40);
+            this.buttonSkip.Size = new System.Drawing.Size(135, 49);
             this.buttonSkip.TabIndex = 12;
             this.buttonSkip.Text = "Bo qua";
             this.buttonSkip.UseVisualStyleBackColor = true;
@@ -177,20 +172,20 @@
             // textBoxKQ
             // 
             this.textBoxKQ.BackColor = System.Drawing.SystemColors.Info;
-            this.textBoxKQ.Location = new System.Drawing.Point(82, 165);
-            this.textBoxKQ.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBoxKQ.Location = new System.Drawing.Point(109, 203);
+            this.textBoxKQ.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBoxKQ.Name = "textBoxKQ";
             this.textBoxKQ.ReadOnly = true;
-            this.textBoxKQ.Size = new System.Drawing.Size(260, 20);
+            this.textBoxKQ.Size = new System.Drawing.Size(345, 22);
             this.textBoxKQ.TabIndex = 13;
             // 
             // rButtonPTB1
             // 
             this.rButtonPTB1.AutoSize = true;
-            this.rButtonPTB1.Location = new System.Drawing.Point(380, 93);
-            this.rButtonPTB1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.rButtonPTB1.Location = new System.Drawing.Point(507, 114);
+            this.rButtonPTB1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.rButtonPTB1.Name = "rButtonPTB1";
-            this.rButtonPTB1.Size = new System.Drawing.Size(69, 17);
+            this.rButtonPTB1.Size = new System.Drawing.Size(82, 20);
             this.rButtonPTB1.TabIndex = 14;
             this.rButtonPTB1.TabStop = true;
             this.rButtonPTB1.Text = "PT bac 1";
@@ -199,10 +194,10 @@
             // rButtonPTB2
             // 
             this.rButtonPTB2.AutoSize = true;
-            this.rButtonPTB2.Location = new System.Drawing.Point(380, 115);
-            this.rButtonPTB2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.rButtonPTB2.Location = new System.Drawing.Point(507, 142);
+            this.rButtonPTB2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.rButtonPTB2.Name = "rButtonPTB2";
-            this.rButtonPTB2.Size = new System.Drawing.Size(69, 17);
+            this.rButtonPTB2.Size = new System.Drawing.Size(82, 20);
             this.rButtonPTB2.TabIndex = 15;
             this.rButtonPTB2.TabStop = true;
             this.rButtonPTB2.Text = "PT bac 2";
@@ -211,27 +206,26 @@
             // label6
             // 
             this.label6.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(27, 93);
-            this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label6.Location = new System.Drawing.Point(36, 114);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(75, 19);
+            this.label6.Size = new System.Drawing.Size(100, 23);
             this.label6.TabIndex = 16;
             this.label6.Text = "C";
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(82, 96);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox3.Location = new System.Drawing.Point(109, 118);
+            this.textBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(260, 20);
+            this.textBox3.Size = new System.Drawing.Size(345, 22);
             this.textBox3.TabIndex = 17;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(526, 285);
+            this.ClientSize = new System.Drawing.Size(701, 351);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.rButtonPTB2);
@@ -249,7 +243,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
