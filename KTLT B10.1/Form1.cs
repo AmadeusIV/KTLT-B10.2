@@ -55,5 +55,15 @@ namespace KTLT_B10._1
         {
         
         }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBoxKQ_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
