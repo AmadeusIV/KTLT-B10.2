@@ -141,7 +141,7 @@
             // buttonExit
             // 
             this.buttonExit.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonExit.Location = new System.Drawing.Point(380, 165);
+            this.buttonExit.Location = new System.Drawing.Point(414, 177);
             this.buttonExit.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.buttonExit.Name = "buttonExit";
             this.buttonExit.Size = new System.Drawing.Size(101, 40);
