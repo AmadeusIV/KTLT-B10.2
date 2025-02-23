@@ -160,7 +160,7 @@
             // buttonSkip
             // 
             this.buttonSkip.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonSkip.Location = new System.Drawing.Point(259, 256);
+            this.buttonSkip.Location = new System.Drawing.Point(268, 256);
             this.buttonSkip.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.buttonSkip.Name = "buttonSkip";
             this.buttonSkip.Size = new System.Drawing.Size(135, 49);

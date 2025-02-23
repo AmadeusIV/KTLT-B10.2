@@ -34,7 +34,15 @@ namespace KTLT_B10._1
         {
             if (rButtonUC.Checked)
             {
-
+                if (int.TryParse(textBox1.Text, out int a) && int.TryParse(textBox2.Text, out int b) && int.TryParse(textBox3.Text, out int c))
+                {
+                    int result = UCLN(UCLN(a, b), c);
+                    textBoxKQ.Text = result.ToString();
+                }
+                else
+                {
+                    MessageBox.Show("Vui long nhap so nguyen hop le", "Loi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
             }
         }
 
@@ -45,15 +53,19 @@ namespace KTLT_B10._1
             textBox3.Text = " ";
             textBoxKQ.Text = " ";
         }
-        private int n;
-        private int m;
-        string UC()
+        private int UCLN(int a, int b)
         {
-
+            while (a != 0)
+            {
+                int temp = b;
+                b = a % b;
+                a = temp;
+            }
+            return a;
         }
-        void UCLN() 
+        private string UC()
         {
-        
+            return "";
         }
     }
 }
